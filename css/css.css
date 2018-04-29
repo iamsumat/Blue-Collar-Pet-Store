@@ -2,7 +2,6 @@
 {
     margin:0;
     padding:0;
-    font-family: 'Indie Flower', cursive;
 }
 .logo {
     display: block;
@@ -15,21 +14,21 @@
 }
 #navig {
     text-align: center;
-    padding: 4px;
+    padding: 6px;
     background-color: #F7F7F7;
     color: black;   
 }
 
 .navlink {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 100;
     margin-left: 50%;
     margin: 45px;
     color: black;
 }
 
-a.navlink:hover {
+a.navlink:hover, .active {
     text-decoration-line: none;
     color: skyblue;
 }
@@ -37,96 +36,15 @@ a.navlink:hover {
 body
 {
     font-family: courier;
-   
+    /* background-image: url(/img/backgroundimg.jpg); */
 }
-.first{
-    text-align: center;
+
+body, html {
+    height: 100%;
 }
-header{
-   
-    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(&amp;quot;pic.png&amp;quot;);
-    background-position: center;
-    background-size: cover;
-}
- 
-h1{
-    font-size: 70px;
-    color:seagreen;
-   
-}
-.row{
-    max-width:1140px;
-    max-height:inherit;
-    margin:0;
-}
-.main-nav ul {
-        list-style: none;
-        width: 800px;
-        margin: 0 auto;
-        padding: 0;
-}
-.main-nav{
-    width:200%;
-    list-style: none;
-    float:left;
-    background-color:darkseagreen;
-        border-bottom: 1px solid darkseagreen ;
-   
-}
-.main-nav li{
-    display:inline-block;
-    margin-left:100px;
-    margin-bottom: 20px;
-    padding-top: 14px;
-   
-}
-.main-nav li a{
-    color: black;
-    padding:8px 15px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-}
-.main-nav li a:hover{
-    color:goldenrod;
-    border-bottom:2px solid goldenrod;
-    transition: all 0.5 ease-in;
-    padding:8px;
-}
-.second{
-    width:70%;
-    margin-left:15%;
-    margin-bottom:20px;
-    font-size:18px;
-   
-}
-h3:after{
-   
-    width:100px;
-    height:2px;
-    background-color:coral;
-    display:block;
-    content:&amp;quot; &amp;quot;;
-    margin:0 auto;
-    
-}
-.features h3{
-    font-weight: bold;
-    margin-top:60px;
-    margin-bottom:60px;
-}
-.arranging{
-    text-align:justify;
-}
-.features i{
-    font-size:50px;
-    color:sandybrown;
-    margin-left:35%;
-}
-.features h4{
-    margin-left:40px;
-    font-weight: bold;
-}
+
+
+
 /* 
 -----------Login Drowpdown CSS----------
 

@@ -1,0 +1,90 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7px;
+    width: 50%;
+    height: 185px;
+    width: 335px;
+}
+#navig {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    background-color: #F7F7F7;
+    color: black;   
+}
+
+.navlink {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    margin-left: 50%;
+    margin: 45px;
+    color: black;
+}
+
+a.navlink:hover, .active {
+    text-decoration-line: none;
+    color: skyblue;
+}
+
+body
+{
+    font-family: courier;
+    /* background-image: url(/img/backgroundimg.jpg); */
+}
+
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('/About_Us/img/parallax_2.jpg');
+
+    /* Full height */
+    height: 50%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlaystrip {
+    height: 600px;
+    background-color: white;
+    font-size: 36px;
+    padding-top: 66px;
+}
+
+.about_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 66px;
+    width: 450px;
+}
+
+.info {
+    font-size: 16px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+
+
+
+
