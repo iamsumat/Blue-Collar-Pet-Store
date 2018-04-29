@@ -15,15 +15,23 @@
 }
 #navig {
     text-align: center;
-    padding: 10px;
+    padding: 4px;
     background-color: #F7F7F7;
     color: black;   
 }
 
-.navspan {
+.navlink {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 100;
     margin-left: 50%;
     margin: 45px;
+    color: black;
+}
+
+a.navlink:hover {
+    text-decoration-line: none;
+    color: skyblue;
 }
 
 body
@@ -37,10 +45,8 @@ body
 header{
    
     background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(&amp;quot;pic.png&amp;quot;);
-    height:55vh;
     background-position: center;
     background-size: cover;
-    margin-bottom:100px;
 }
  
 h1{
@@ -102,7 +108,7 @@ h3:after{
     display:block;
     content:&amp;quot; &amp;quot;;
     margin:0 auto;
-    margin-top:30px;
+    
 }
 .features h3{
     font-weight: bold;
@@ -121,8 +127,8 @@ h3:after{
     margin-left:40px;
     font-weight: bold;
 }
-
-/* -----------Login Drowpdown CSS---------- */
+/* 
+-----------Login Drowpdown CSS----------
 
 nav ul {
   margin: 0;
@@ -190,7 +196,7 @@ nav li #login-content {
   width: 250px;  
 }
 
-/*--------------------*/
+--------------------
 
 #inputs input {
   background: #f1f1f1;
@@ -209,7 +215,7 @@ nav li #login-content {
   box-shadow: 0 0 0 1px #e8c291 inset;
 }
 
-/*--------------------*/
+--------------------
 
 #login #actions {
   margin: 10px 0 0 0;
@@ -259,4 +265,4 @@ nav li #login-content {
   right: 2px;
 }
 
-/*----------------- END OF DROPDOWN ------------*/
+----------------- END OF DROPDOWN ------------ */
