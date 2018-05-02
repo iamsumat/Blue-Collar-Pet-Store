@@ -2,6 +2,7 @@
 {
     margin:0;
     padding:0;
+    font-family: 'Montserrat', sans-serif;
 }
 .logo {
     display: block;
@@ -43,144 +44,113 @@ body, html {
     height: 100%;
 }
 
+/* -------------- BOTTOM HALF --------------*/
 
-
-/* 
------------Login Drowpdown CSS----------
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  float: right;
-  background: #eee;
-  border-bottom: 1px solid #fff;
-  border-radius: 3px;    
+.features {
+    margin-top: -30px;
 }
 
-nav li {
-  float: left;          
+.subtext {
+    text-align: center;
+    margin: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
-nav #login {
-  border-right: 1px solid #ddd;
-  box-shadow: 1px 0 0 #fff;  
+.card1, .card2, .card3 {
+    margin-top: -30px;    
 }
 
-nav #login-trigger,
-nav #signup a {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  height: 25px;
-  line-height: 25px;
-  font-weight: bold;
-  padding: 0 8px;
-  text-decoration: none;
-  color: #444;
-  text-shadow: 0 1px 0 #fff; 
+.card2 {
+    padding-top: 2px;
 }
 
-nav #signup a {
-  border-radius: 0 3px 3px 0;
+.card3 {
+    padding-bottom: 25px;
 }
 
-nav #login-trigger {
-  border-radius: 3px 0 0 3px;
+.cardinfo1, .cardinfo2, .cardinfo3 {
+    margin-bottom: 20px;
 }
 
-nav #login-trigger:hover,
-nav #login .active,
-nav #signup a:hover {
-  background: #fff;
+.dogs {
+    margin-top: -40px;
 }
 
-nav #login-content {
-  display: none;
-  position: absolute;
-  top: 24px;
-  right: 0;
-  z-index: 999;    
-  background: #fff;
-  background-image: linear-gradient(top, #fff, #eee);  
-  padding: 15px;
-  box-shadow: 0 2px 2px -1px rgba(0,0,0,.9);
-  border-radius: 3px 0 3px 3px;
+.dog-collage{
+    list-style:none;
+    width:100%;
+}
+.dog-collage li{
+    display:block;
+    width:25%;
+    float:left;
+    
+}
+.photo-one{
+    width:100%;
+    margin:0%;
+    overflow:hidden;
+}
+.photo-one img{
+    width:100%;
+    height:auto;
+    transform:scale(1.0);
+    transition:all 0.5s;    
+}
+.photo-one img:hover{
+    transform:scale(1.2);
+    
+}
+.dog{
+    margin-top:60px;
+}
+.footer{
+     width: 100%;
+     height:400px;
+     background-color: skyblue;
+     margin-top: 500px;
+}
+.foot{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.social i{
+    font-size:25px;
+    color:white;
+    float:left;
+    margin-top:20px;
+    
+}
+.footer contact{
+  float:right;
+}
+.contact{
+     color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+   text-align:center right;
 }
 
-nav li #login-content {
-  right: 0;
-  width: 250px;  
+.col-md-4 img{
+    position: relative;
 }
-
---------------------
-
-#inputs input {
-  background: #f1f1f1;
-  padding: 6px 5px;
-  margin: 0 0 5px 0;
-  width: 238px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  box-shadow: 0 1px 1px #ccc inset;
+.button {
+    vertical-align: center;
+    background-color: #8FD3E8;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2.5px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
-
-#inputs input:focus {
-  background-color: #fff;
-  border-color: #e8c291;
-  outline: none;
-  box-shadow: 0 0 0 1px #e8c291 inset;
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(123, 188, 206);
 }
-
---------------------
-
-#login #actions {
-  margin: 10px 0 0 0;
-}
-
-#login #submit {    
-  background-color: #d14545;
-  background-image: linear-gradient(top, #e97171, #d14545);
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  text-shadow: 0 1px 0 rgba(0,0,0,.5);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;    
-  border: 1px solid #7e1515;
-  float: left;
-  height: 30px;
-  padding: 0;
-  width: 100px;
-  cursor: pointer;
-  font: bold 14px Arial, Helvetica;
-  color: #fff;
-}
-
-#login #submit:hover,
-#login #submit:focus {    
-  background-color: #e97171;
-  background-image: linear-gradient(top, #d14545, #e97171);
-} 
-
-#login #submit:active {   
-  outline: none;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;   
-}
-
-#login #submit::-moz-focus-inner {
-  border: none;
-}
-
-#login label {
-  float: right;
-  line-height: 30px;
-}
-
-#login label input {
-  position: relative;
-  top: 2px;
-  right: 2px;
-}
-
------------------ END OF DROPDOWN ------------ */
