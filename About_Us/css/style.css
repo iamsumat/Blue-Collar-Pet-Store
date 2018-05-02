@@ -21,7 +21,7 @@
 }
 
 .navlink {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 100;
     margin-left: 50%;
@@ -45,13 +45,10 @@ body, html {
 }
 
 .parallax {
-    /* The image used */
     background-image: url('/About_Us/img/parallax_2.jpg');
 
-    /* Full height */
-    height: 50%; 
+    height: 55%; 
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,6 +63,7 @@ body, html {
 }
 
 .about_img {
+    font-family: 'Montserrat', sans-serif;  
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -75,6 +73,7 @@ body, html {
 }
 
 .info {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;
     padding-left: 200px;
