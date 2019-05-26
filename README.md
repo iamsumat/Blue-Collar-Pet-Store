@@ -1,6 +1,6 @@
 # BLUE COLLAR PET STORE
 A website where you can adopt pets, care for  them and meet all their needs. \
-The website is currently hosted at: [Blue Collar Pet Store](http://bit.do/BlueCollarPetStore)
+The website is currently hosted at: [Blue Collar Pet Store](http://bit.ly/bluecollarpetstore)
 
 
 ## SERVICES
