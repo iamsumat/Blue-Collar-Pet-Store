@@ -19,8 +19,9 @@ Please read [CONTRIBUTING.md](https://github.com/Sumat2222/Blue-Collar-Pet-Store
 
 ## AUTHORS
 
-* **Sumat Singh** - *Initial work* - [Sumat2222](https://github.com/Sumat2222)
-
+* **Sumat Singh** - *Cofounder* - [Sumat2222](https://github.com/Sumat2222)
+* **Swadha Arora** - *Cofounder*
+  
 ## License
 
 This project is licensed under the MIT License.
